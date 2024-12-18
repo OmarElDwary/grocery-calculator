@@ -21,6 +21,6 @@ void main() {
   // calculate after taxes
   double totalAfterTax = totalPrice + (totalPrice * taxRate);
 
-  print(totalPrice);
-  print(totalAfterTax);
+  print("Total before tax: \$${totalPrice}");
+  print("Total afrer  tax: \$${totalAfterTax}");
 }
